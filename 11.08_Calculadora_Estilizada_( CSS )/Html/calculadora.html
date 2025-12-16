@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <title>Calculadora</title>
+    <script>
+        function somar() {
+            const n1 = document.getElementById('n1').value
+            const n2 = document.getElementById('n2').value
+            const soma = Number(n1) + Number(n2)
+            console.log("A soma dos numeros é: " + soma)
+            resultado.innerHTML = "A soma dos numeros é: " + soma;
+        }
+        function subtrair() {
+            const n1 = document.getElementById('n1').value
+            const n2 = document.getElementById('n2').value
+            const sub = Number(n1) - Number(n2)
+            console.log("A soma dos numeros é: " + sub)
+            resultado.innerHTML = "A soma dos numeros é: " + sub;
+
+        }
+
+        function Multiplica() {
+            const n1 = document.getElementById('n1').value
+            const n2 = document.getElementById('n2').value
+            const mul = Number(n1) * Number(n2)
+            console.log("A soma dos numeros é: " + mul)
+            resultado.innerHTML = "A soma dos numeros é: " + mul;
+
+        }
+
+        function Divisão() {
+            const n1 = document.getElementById('n1').value
+            const n2 = document.getElementById('n2').value
+            const div = Number(n1) / Number(n2)
+            console.log("A soma dos numeros é: " + div)
+            resultado.innerHTML = "A soma dos numeros é: " + div;
+
+        }
+
+        function del() {
+            const n1 = document.getElementById('n1').value = ""
+            const n2 = document.getElementById('n2').value = ""
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <main>
+        <form action="">
+
+            <h5> Número 1: <input type="text" id='n1'><br></h5>
+            <h5> Número 2: <input type="text" id='n2'><br><br></h5>
+
+
+            <input type="button" value="Somar" onclick="somar()"></input><br><br>
+            <input type="button" value="Subtrair" onclick="subtrair()"></input><br><br>
+            <input type="button" value="Multiplica" onclick="Multiplica()"></input><br><br>
+            <input type="button" value="Dividir" onclick="Divisão()"></input>
+            <br><br>
+            <input type="button" value="Deletar" onclick="del()"></input><br><br>
+    </main>
+
+    <p id="resultado">A soma dos numeros é: </p>
+    </form>
+
+
+</body>
+
+</html>

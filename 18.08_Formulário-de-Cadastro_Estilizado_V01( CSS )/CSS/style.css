@@ -1,0 +1,94 @@
+body {
+
+    background-color: orange;
+    
+}
+
+
+p{
+
+text-align: center;
+font-family: tahoma;
+font-weight: 900;
+color: aliceblue;
+font-size: 20px;
+
+}
+
+h5 {
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+main {
+
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    translate: (-50%, 40%);
+    border: rgb(202, 132, 3) solid 2px;
+    background-color: rgba(255, 255, 255, 0.201);
+    width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+
+input[type="text"] {
+
+    background-color: rgb(255, 123, 0);
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: rgb(200, 97, 0) solid 2px;
+    color: white;
+    font-family: tahoma;
+    font-size: 15px;
+
+
+}
+
+input[type="number"] {
+
+    background-color: rgb(255, 123, 0);
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: rgb(200, 97, 0) solid 2px;
+    color: white;
+    font-family: tahoma;
+    font-size: 15px;
+
+}
+
+input[type="email"] {
+
+    background-color: rgb(255, 123, 0);
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border:rgb(200, 97, 0) solid 2px ;
+    color: white;
+    font-family: tahoma;
+    font-size: 15px;
+
+}
+
+input[type="button"] {
+
+    background-color: aqua;
+    border-radius: 50px;
+    border:rgb(3, 188, 188) solid 2px ;
+    color: black;
+   width: 99%;
+    font-size: 13px;
+    height: 30px;
+    font-family:  Verdana ;
+    font-weight: 800;
+    
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: moccasin;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: darkblue;
+}
+
+table tr td {
+    border: black solid 3px;
+    border-radius: 9px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.font {
+    font-family: Tahoma;
+    color: darkslategray;
+    font-size: 20px;
+ 
+}
+
+.font1 {
+    background: beige;
+}
+
+.font2 {
+    background: sandybrown;
+}
+
+.font3 {
+    background: red;
+}
+
+.font4 {
+    background: yellow;
+}
+
+.font5 {
+    background: greenyellow;
+}
+
+.font6 {
+    background: powderblue;
+}
